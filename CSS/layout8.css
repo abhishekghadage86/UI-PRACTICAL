@@ -11,14 +11,14 @@
 .container
 {
     width: 80%;
-    min-height: 500px;
+    min-height: 700px;
     margin: auto;
 }
 .header
 {
     width: 100%;
-    background-color: #7BA8AE;
     min-height: 400px;
+    background-image: url(/IMAGE/skyscraper-366820.jpg);
     
     
 }
