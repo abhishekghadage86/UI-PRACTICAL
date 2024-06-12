@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingfisher</title>
+    <style>
+        h1.head{
+            box-shadow: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration:lightblue;
+            background-image: radial-gradient(#20BDFF,#A5FECB);
+        }
+        p.para{
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-image: linear-gradient(#00416A,#799F0C,#FFE000);
+            color:#a01b26;
+
+        }
+        #image{
+            border-radius: 20px;
+
+        }
+        a{
+            background-color: aqua; 
+               }
+         .row{
+            display: flex;
+            display: flexbox;
+         }      
+
+         .column{
+            flex: 33%;
+        flex-grow: calc(12s);
+         }
+         div{
+            border-radius: 400px;
+         }
+             </style>
+</head>
+<body style="background-image:linear-gradient( #12c2e9,#c471ed,#f64f59);" ><!--background-repeat: no-repeat"-->
+        <div>
+            <h1 class="head">This is Kingfisher</h1>
+            <marquee behavior="border-color" direction="">
+            <div class="row">
+                <div class="column">
+                    <img src="/IMAGE/king2.jpg" alt="image not load"id="image">
+                </div>
+                <div class="column">
+                    <img src="/IMAGE/king1.jpg" alt="image not load"  id="image">
+                </div>
+                <div class="column">
+                    <img src="/IMAGE/king3.jpg" alt="image not load"  id="image">
+                </div>
+            </div>
+        </marquee>
+
+            <p class="para">
+                Kingfishers are a family, the Alcedinidae, of small to medium-sized, brightly coloured birds in the order Coraciiformes. 
+                They have a cosmopolitan distribution, with most species living in the tropical regions of Africa, Asia, and Oceania, 
+                but also can be seen in Europe. They can be found in deep forests near calm ponds and small rivers. The family contains 
+                116 species and is divided into three subfamilies and 19 genera.
+                 
+                All kingfishers have large heads, long, sharp, pointed bills, short legs, and stubby tails. 
+                Most species have bright plumage with only small differences between the sexes. Most species are tropical in distribution, 
+                and a slight majority are found only in forests.
+                <b><p>Click here for additional information</b>
+                </p>
+                <marquee behavior="reverse" direction="reverse"><h2><a href="https://en.wikipedia.org/wiki/Kingfisher" id="a">Click here</a></h2></marquee>
+            </p>
+        </div>
+</body>
+</html>

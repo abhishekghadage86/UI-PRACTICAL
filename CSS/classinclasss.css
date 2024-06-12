@@ -1,0 +1,30 @@
+
+h1.one{
+    background-color: bisque;
+
+}
+.two {
+color: rgb(201, 11, 11);
+}
+.three
+{
+    color: blue;
+}
+#h1 {
+        color: rgb(212, 21, 139);
+}
+.div1{
+    background-color: rgb(62, 207, 233);
+    padding: 10px;
+     border: solid 3px;
+    }
+    .div2{
+        background-color: rgb(190, 223, 41);
+        padding: 10px;
+         border: solid 3px;
+        }
+        .div3{
+            background-color: rgb(233, 62, 133);
+            padding: 10px;
+             border: solid 3px;
+            }

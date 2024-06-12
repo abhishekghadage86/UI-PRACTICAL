@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+}
+.container
+{
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+    border: 1px solid;
+    background-image: url(/IMAGE/amisoslider.jpg);
+    background-color: lightgray;
+    height: 300px;
+}
+.header
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    
+}
+.header .logo
+{
+    width: 10%;
+
+}
+.header .logo img
+{
+    width: 90px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.nav
+{
+    width: 50%;
+    margin-top: 25px;
+}
+.nav a
+{
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+   
+}
+a:hover
+{
+    color: orange;
+
+}
+.line
+{
+    width: 100%;
+    border-bottom: 2px solid;
+}
+.main
+{
+    width: 100%;
+}
+.main p
+{
+    margin-left: 220px;
+    font-weight: 900;
+    font-size: 8ch;
+    margin-top: 200px;
+    color: white;
+}
+.body
+{
+    width: 100%;
+    display: flex;
+}
+.body .map
+{
+    width: 50%;
+
+
+}
+.body .map img
+{
+    margin-top: 190px;
+    width: 500px;
+    height: 600px;
+    margin-left: 80px;
+
+
+}
+.body .btxt
+{
+    width: 50%;
+
+
+}
+.body .btxt 
+{
+    margin-top: 190px;
+    width: 500px;
+    height: 600px;
+    margin-left: 80px;
+
+
+}

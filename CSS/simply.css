@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    padding-top: 30px;
+}
+.header{
+    
+    float: left;
+    color:rgb(190, 76, 0);
+    margin: auto;
+    font-size: 30px;
+    font-style: italic ;
+
+    
+    
+}
+.head{
+    padding-top: 60px;
+    margin: auto;
+    width: 80%;
+    min-height:  50px;
+}
+
+.nav{
+    float: right;
+    align-content: space-between;
+   
+}
+.nav h1{
+    
+    font-style:italic;
+}
+.nav a{
+ text-decoration: none;
+ padding: 30px;
+ color: black;
+}
+.imghead{
+    
+    background-image: url(/IMAGE/mountain.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 80px;
+  
+    
+}
+.imghead p{
+    text-align: center ;
+    font-size: 150%;
+    font-style: oblique;
+ 
+     padding-top: 80px;
+    
+
+}
+.imghead button{
+    border-radius: 30px;
+    padding: 20px;
+   margin-left: 600px;
+    text-align: center;
+    font-style: inherit;
+    font-size: xx-large;
+background-color: brown;
+}
+.imgbody{
+display: flex;
+width: 80%;
+min-height: 20px;
+
+padding-top: 80px;
+background-color: rgb(168, 168, 168);
+margin: auto;
+
+}
+
+.imgbody  > div{
+    margin: 10px;
+width: 33.33%;
+min-height: 20vh;
+    flex: 33.33%;
+  padding: 20px;
+  text-align: center;
+    margin-left:50px;
+    font-size: 20px;
+  }
+
+  .imgbody p{
+    padding-top: 50px;
+
+   
+  }
+  .fet{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+    font-size:x-large ;
+  }
+  .fet h1{
+    color: rgb(107, 54, 5);
+    padding-bottom: 30px;
+  }
+.scontent {
+   padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    min-height: 10vh;
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.scontent > div{
+    flex: 40%;
+}
+.heard{
+    background-color: rgb(169, 209, 214);
+    width: 80%;
+    margin: auto;
+    min-height: 20vh;
+    text-align: center;
+    padding-top: 50px;
+}
+.heard p{
+   text-align: center;
+   padding-top: 30px;
+  
+}
+.btn{
+    margin-left: 200px;
+    font-size: xx-large;
+    border-radius: 2ch;
+}
+
+    
+    
+
+

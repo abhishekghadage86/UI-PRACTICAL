@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>
+	Image and Description
+	</title>
+</head>
+<body>
+ 	<img src="G:\UI PRACTICAL\IMAGE\wp5562203-ford-mustang-gt-4k-wallpapers.jpg">
+	<pre>
+
+My name is Robinson. I am from England. I am eighteen years old. 
+My father is German.My mother is English. I have two brothers.
+I have one sister. We are a good family.My father is a good businessman. 
+We have money. I have a good school.I have a good life. But I have a dream. 
+I want to travel. I want to see the world.My father is a good man. 
+e wants the best for me. But my dream is not his dream. He is not happy. 
+The situation is not easy.It is morning. My father is in his room. 
+He wants to speak with me. I go to his room. My father has some questions. 
+My father wants to know why I want to travel.My father says,
+“Travelling is dangerous. Travelling is not comfortable. You can die.”
+I think about it. Travelling is dangerous. It is not comfortable.
+I can die. But it is also very interesting. I can see new countries. I can meet new people.
+I think about travelling every day. Maybe my mother can help me. I speak with my mother. I tell my mother, 
+“I want to travel. I want to see the world. Please, speak with my father. Maybe with your help, I can travel.” 
+My mother loves me. But she thinks that travelling is dangerous. She thinks that my place is at home. 
+She thinks that life in England is the best for me.
+
+	</pre>
+
+</body>
+
+</html>

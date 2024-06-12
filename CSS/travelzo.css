@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    min-height: 500px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: solid 2px;
+    
+    background-image: linear-gradient(#232f7e,#2a466b,#292B38);
+ 
+    
+}
+.header{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    background-color: #292B38;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.header .logo
+{
+width: 15%;
+padding: 15px;
+
+}
+.container .nav
+{
+width: 40%;
+padding: 10px;
+margin: 20px;
+
+
+}
+.container .nav  a
+{
+text-decoration: none;
+padding: 20px;
+font-weight: bold;
+color: white;
+margin-top: 20px;
+
+}
+.header .searchbar {
+    width: 250px;
+    margin: 15px;
+    padding: 5px;
+     display: flex;
+    background-color: white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.searchbar .icon
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+.searchbar .search input
+{
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+    outline: 0;
+}   
+.search input[tpye=text]
+{
+
+    width: 100%;
+    height: 10px;
+    padding: 5px 10px;
+    font-size: large;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: 0;
+}
+.main{
+    width: 100%;
+    background-color: #2F3C4F;
+    
+}
+.main .text
+{
+    width: 50%;
+    float: left;
+
+  
+    
+    
+}
+.main .text h5
+{
+    margin-top: 50px;
+ margin-left: 190px; 
+
+ 
+}
+.main .text .intro p
+{
+   padding: 5px;
+   
+
+}
+.main .text h1
+{
+    margin-top: 10px;
+    padding: 10px;  
+    margin-left: 60px; 
+}
+.main .text .one
+{
+    width: 100%;
+    margin-left: 70px;
+    font-size: small;
+    
+}
+.text .btn {
+    margin-left: 110px;
+padding: 10px; 
+}
+.text .btn .btn1{
+   font-weight: bold;
+   padding: 8px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   background-color: #1A345A;
+   outline: 0;
+}
+.text .btn .btn2{
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #035394;
+}
+ 
+
+
+.main .form
+{
+    width: 50%;
+    min-height: 300px;
+   padding: 30px;
+    float: left;
+   
+}
+.main mark{
+    color: rgb(60, 182, 212);
+    background-color:#2A456D;
+}
+.user{
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(185, 175, 175);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+   
+}
+.user input
+{
+    width: 380px;
+    outline: 0;
+    border: none;
+    background: none;
+    background-color: rgb(185, 175, 175);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mname 
+{
+    width: 400px;
+    display: flex;
+    margin-top: 10px;
+    gap:20px;
+}
+.mname i{
+    margin-top: 10px;
+}
+.fname
+{
+   display: flex;
+   width: 195px;
+   
+   background-color: rgb(185, 175, 175);
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.fname input
+{
+    width: 165px;
+    border: none;
+    padding: 10px;
+    background: none;
+    background-color: rgb(185, 175, 175);
+    border-radius: 10px; 
+}
+
+.lname
+{
+   display: flex;
+   width: 195px;
+   
+   background-color: rgb(185, 175, 175);
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.lname input
+{
+    width: 165px;
+    border: none;
+    padding: 10px;
+    background: none;
+    background-color: rgb(185, 175, 175);
+    border-radius: 10px; 
+}
+.email i{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.email input{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(185, 175, 175);
+    margin-top: 10px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+.password i{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.password input
+{
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(185, 175, 175);
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.mem {
+    width: 400px;
+    display: flex;padding: 10px;
+    margin-left: 200px;
+}
+.mem h5{
+    color: white;
+    font-weight: bold;
+}
+.mem .log input{
+    float: inline-end;
+    border: none;
+    font-weight: bold;
+    color:rgb(11, 149, 190);
+    background-color: #222F47;
+}
+.createbtn input
+{
+    width: 400px;
+    padding: 10px;
+    
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    border: none;
+    background-color: rgb(3, 83, 148);
+}

@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>
+
+	</title>
+</head>
+<body>
+      <a href="https://www.instagram.com/">
+	<img src="G:\UI PRACTICAL\IMAGE\1298747_instagram_brand_logo_social media_icon.png">
+<p> 	Instagram </a>
+	</a>
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+div.one{
+    text-align-last: center;
+    background-color: rgb(10, 10, 10);
+}
+div.out{
+    text-align-last: center;
+    background-image: radial-gradient(#12c2e9,#c471ed,#f64f59);
+}
+div.three{
+    text-align-last: center;
+    background-image: radial-gradient(#3c3064,#1aabbe,#f64f59);
+}
+div.two{
+    text-align-last: center;
+    background-color: rgb(211, 29, 114);
+}   
+h1{text-align: center;
+    background-image: linear-gradient(#dd710d,#1aabbe,#7708d1);
+}
+p{
+    text-align: center;
+    background-image: linear-gradient(#4903b8,#689416,#e41c5f);}
+div{
+    background-image: linear-gradient(#12c2e9,#c471ed,#f64f59);
+    text-align: center;
+    }
