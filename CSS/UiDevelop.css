@@ -51,13 +51,12 @@
 {
     width: 100%;
     min-height: 500px;
-    /* background-image: linear-gradient(to left, rgb(85, 85, 67),rgb(226, 200, 200)); */
-    /* background-repeat: no-repeat;
-    background-size: 100% 100%; */
-    background-image: url(/IMAGE/nature.jpg);
+    /*background-image: linear-gradient(to left, rgb(85, 85, 67),rgb(226, 200, 200));
+    *//*background-repeat: no-repeat;
+    background-size: 100% 100%;
+    */background-image: url(/IMAGE/nature.jpg);
     background-repeat: no-repeat;
     
-   
 }
 .downheader .logo:nth-child(1)
 {
@@ -412,16 +411,20 @@
     /*border: solid 1px;
     */background-image: url(/IMAGE/introimg1.jpg);
     background-size: 80%;
-    filter:grayscale(50%) ;
+    filter: opacity(90%);
+    -webkit-filter: opacity(90%);
+    /*filter:grayscale(50%) ;
     -webkit-filter:grayscale(50%) ;
+            */
 }
 .up p{
     width: 620px;
     font-size: xx-large;
     font-weight: bold;
     color: white;
-    margin-left: 100px;
     padding-top: 160px;
+    margin-left: 100px;
+    
 }
 .up input[type=button]
 {
