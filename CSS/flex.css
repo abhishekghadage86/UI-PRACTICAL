@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    min-height: 100px;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.main-header-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color:blueviolet;
+    position: sticky;
+    top: 5px;
+    z-index: 1;
+
+}
+.main-header-div .logo
+{
+    flex-basis: 40%;
+    padding: 10px 60px;
+}
+.logo h1
+{
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: transparent;
+   
+}
+.main-header-div .menu
+{
+    flex-basis: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.menu ul
+{
+    list-style: none;
+    width: 100%;
+}
+.menu ul li
+{
+    padding: 15px;
+    display: inline-block;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(182, 114, 182);
+    border-radius: 20px;
+    /*overflow: auto;
+    */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.menu ul li a:hover
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.slider
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 300px;
+    padding-top: 5px;
+
+}
+.slider img
+{
+     width: 100%; 
+}
+.main-div
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    background-color:lightgray ;
+    
+}
+.main-div .silderbar
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-basis: 20%;
+    height:460px ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 10, 123);
+   /* position: sticky;
+   top: 80px; */
+
+}
+.silderbar table
+{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding: 10px;
+    
+
+}
+.silderbar table tr td
+{
+ justify-content: left;
+ 
+
+}
+.silderbar img
+{
+    width: 60px;
+    background-color:blueviolet;
+}
+
+.main-div .con
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    /* border: solid 1px black;  */
+    min-height: 350px;
+    
+   
+}
+.con .ques h1
+{
+    padding: 10px;
+    text-align: center;
+}
+.con .ans p
+{
+    text-align: justify;
+    padding: 10px;
+    text-transform: capitalize;
+    /* text-transform: uppercase; */
+}
+.con :nth-child(3)
+{
+    text-align: justify;
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+}
+.img
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+   
+    flex-basis: 32%;  
+}
+.img :first-child
+{
+    margin-left: 10px;
+
+}
+.img .conimg
+{
+    width: 100%;
+    flex-basis: 32%;
+   
+    gap: 20px;
+    position: relative;
+}
+.order
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+
+}
+.order a
+{
+    color: white;
+    background-color: blueviolet;
+    padding: 5px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-decoration: none;
+}
+.order a:hover
+{
+    color: white;
+    background-color: rgb(224, 202, 1);
+    
+}
+.offer
+{
+    position: absolute;
+    color: white;
+    left: 0;
+    bottom: 10px;
+}
+.conimg img
+{
+    width: 98%;
+    flex-basis: 32%; 
+    
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}

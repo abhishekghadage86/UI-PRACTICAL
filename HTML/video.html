@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video tag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Roboto Slab", serif;
+        }
+        .box
+        {
+            width: 100%;
+           
+            height: 100vh;
+            border: solid 1px;
+            background-color: rgb(138, 138, 201);
+            position: relative;
+            padding: 0 ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           z-index: -1;
+        }
+        nav
+        {
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            right: 30px;
+            padding: 10px 8px;
+            display: flex;
+            justify-content: space-between;
+         
+
+        }
+        .logo
+        {
+            width: 150px;
+            padding:0px 30px;
+        }
+        nav ul li{
+            list-style: none;
+            display:inline-block;
+            padding: 25px 20px;
+
+        }
+        nav ul li a{
+           padding: 10px;
+           font-weight: bold;
+           color: white;
+           text-decoration: none;
+           font-size: larger;
+        }
+        nav ul li a:hover
+        {
+            background-color: blueviolet;
+            color: white;
+           
+        }
+        .content
+        {
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .content h1
+        {
+            font-size: 8ch;
+            -webkit-text-stroke:4px;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-color: #ffffff;
+        }
+        .content a
+        {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: x-large;
+           color: rgb(255, 255, 255);
+           background-color: blue;
+           padding: 5px 15px;
+           border-radius: 50px;
+           
+        }
+        .content a:hover
+        {
+           background-color: rgb(236, 236, 236);
+           color: black;
+        }
+        video
+        {
+            width: 100%;
+            height:800px ;
+            background: fixed;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+            <video autoplay loop muted plays-inline  class="back-video">
+                <source src="/VIDEO/video.mp4" type="video/mp4">
+          
+        </div>
+        <nav>
+            <img src="/IMAGE/logocompany.png" alt="" class="logo">
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">jobs</a></li>
+                <li><a href="">Blogs</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Company Name</h1>
+
+            <a href="">Read More..</a>
+        </div>
+      
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex properties</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width: 400px;
+            border: solid 1px;
+            min-height: 60px;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: row; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+            flex-direction:row ;
+            /* flex-wrap: nowrap; */
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse;
+            flex-wrap: nowrap; */
+            justify-content: center;
+            justify-content: end;
+            justify-content: right;
+            justify-content: flex-end;
+            justify-content: left;
+            justify-content: start;
+            justify-content: space-around;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            flex-basis: 10%;
+            gap: 20px;
+            /* flex-flow: column; */
+        }
+        .div1
+        {
+            width: 50px;
+            height: 50px;
+          background-color: brown;  
+          order: 1;
+        }
+        .div2
+        {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+        .div3
+        {
+            width: 50px;
+            height: 50px;
+            background-color: chartreuse;
+        }
+        .div4
+        {
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            order: 3;
+        }
+        .div5
+        {
+            width: 50px;
+            height: 50px;
+            background-color: chocolate;
+            order: -5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">Box1</div>
+        <div class="div2">box2</div>
+        <div class="div3">box3</div>
+        <div class="div4">box4</div>
+        <div class="div5">box5</div>
+        <div class="div3">box6</div>
+        <div class="div4">box7</div>
+        <div class="div5">box8</div>
+        <div class="div3">box9</div>
+        <div class="div4">box10</div>
+        <div class="div5">box11</div>
+    </div>
+</body>
+</html>
