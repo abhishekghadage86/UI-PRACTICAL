@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto Slab", serif;
+        }
+        
+       .container 
+        {
+            width: 400px;
+            margin: 30px;
+            border-radius: 42px;
+           background: #aaaca5;
+           padding: 80px 20px;
+            box-shadow:  24px 24px 27px #161812,
+             -24px -24px 27px #bba95b;  
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            }
+    input[type=”text”], input[type=email],input[type=contact],select[type=dropdown]{
+     
+    margin: auto;
+    width: 80%;
+    display: block;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    outline: 0;
+    font-weight: bold;
+    border-radius: 10px;
+    
+    }
+    input[type=submit] {
+      
+    margin: auto;
+    width: 150px;
+    display: block;
+    padding:  8px;
+    color: white;
+    background-color: rgb(46, 103, 189);
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+    
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+    <span>
+     <input type=”text” placeholder="Enter name">
+    <input type="email" placeholder="Enter Email">
+    <input type="contact" placeholder="Enter Contact">
+    <select type="dropdown" id="dropdown">
+        <option value="Computer Science Engineering">Computer Science Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Electrical Engineering">Electrical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+    </select>
+    <input type=submit value=Login>
+</span>
+    </div>
+</body>
+</html>

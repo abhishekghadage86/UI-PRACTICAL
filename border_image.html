@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border image demo</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container
+        {
+            width: 300px;
+            margin:100px auto;
+            min-height: 300px;
+            border: 30px solid #000;
+            /* border-top-color: royalblue;
+            border-bottom-color: red; */
+            /* border-left: 0;
+            border-right: 0; */
+            /* border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px; */
+            border-image-source:url(/IMAGE/border.gif);
+            border-image-slice: 30;
+            border-image-repeat:stretch;
+
+        }
+        p{
+            padding: 20px;
+            text-align: justify;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/IMAGE/l.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iste numquam porro omnis! Magni deserunt, laborum eius Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat fuga adipisci veritatis necessitatibus quos praesentium nam incidunt eius ipsam, velit laboriosam blanditiis officiis atque amet, possimus aliquam illo sit voluptas? vel ipsam qui deleniti beatae dolorum, quisquam saepe maxime obcaecati. Maxime, cumque eveniet.</p>
+    </div>
+</body>
+</html>

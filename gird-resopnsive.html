@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Responsive </title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        .container
+        {
+            width: 80%;
+            margin: auto;
+            border: 1px solid #000;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 60px 60px 300px 200px 300px 60px;
+            grid-template-areas: "header" "header"
+        }
+        .header
+        {
+            background-color: blue;
+            color: white;
+            grid-area: "header";
+        }
+        .menu
+        {
+            background-color: brown;
+            color: white;
+            grid-area: "menu";
+
+        }
+        .sidebar
+        {
+            background-color: rgb(253, 68, 68);
+            color: white;
+            grid-area: "sidebar";
+        }
+        .box1
+        {
+            background-color: rgb(24, 160, 42);
+            color: white;
+            grid-area: "box1";
+        }   
+        .box2
+        {
+            background-color: rgb(28, 28, 37);
+            color: white;
+            grid-area: "box2";
+        }
+        .box3
+        {
+            background-color: rgb(19, 98, 129);
+            color: white;
+            grid-area: "box3";
+        }
+        .contents
+        {
+            background-color: blue;
+            color: white;
+            grid-area: "contents";
+        }
+        .footer
+        {
+            background-color: rgb(150, 173, 16);
+            color: white;
+            grid-area: "footer";
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="menu">menu</div>
+        <div class="sidebar">sidebar</div>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="contents">contents</div>
+        <div class="footer">footer</div>
+
+
+    </div>
+</body>
+</html>
